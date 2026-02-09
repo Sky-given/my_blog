@@ -3,7 +3,7 @@ languageCode = "zh-cn"
 title = "Sky-given 的技术博客"
 theme = "hugo-theme-stack"
 
-# 解决 "hash not defined" 的核心配置：强制使用稳定的 v3 版本
+# 解决 "hash not defined" 的核心：强制使用稳定的 v3 版本
 [module]
   [[module.imports]]
     path = "github.com/CaiJimmy/hugo-theme-stack/v3"
