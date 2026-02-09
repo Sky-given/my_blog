@@ -3,7 +3,7 @@ languageCode = "zh-cn"
 title = "Sky-given 的技术博客"
 theme = "hugo-theme-stack"
 
-# 强制使用 v3 版本，彻底解决 v4 兼容性报错
+# 解决 "hash not defined" 的核心配置：强制使用稳定的 v3 版本
 [module]
   [[module.imports]]
     path = "github.com/CaiJimmy/hugo-theme-stack/v3"
@@ -11,7 +11,7 @@ theme = "hugo-theme-stack"
 [params]
     header = {
         title = "Sky-given",
-        subtitle = "探索 Hugo 的第 1 天"
+        subtitle = "正在探索 Hugo 的博主"
     }
     footer = {
         since = 2026
