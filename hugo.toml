@@ -1,20 +1,18 @@
-baseURL = "my-blog-9fmilf5g3-sky-givens-projects.vercel.app/"
+baseURL = "https://my-blog-ten-sigma-14.vercel.app/"
 languageCode = "zh-cn"
 title = "Sky-given 的技术博客"
 theme = "hugo-theme-stack"
 
-# 核心模块配置：这是解决你目前报错的关键
+# 强制使用 v3 版本，彻底解决 v4 兼容性报错
 [module]
   [[module.imports]]
-    # 强制使用 v3 版本，避免 v4 带来的构建错误
     path = "github.com/CaiJimmy/hugo-theme-stack/v3"
 
 [params]
-    # 以后你可以在这里修改你的名字和描述
     header = {
         title = "Sky-given",
-        subtitle = "正在探索 Hugo 的博主"
+        subtitle = "探索 Hugo 的第 1 天"
     }
     footer = {
-        since = 2024
+        since = 2026
     }
